@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buoyant-plume-models"
+version = "0.1.0"
+description = "Educational buoyant plume model toolkit"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "gsw",
+    "ipywidgets"
+]
+
+[tool.setuptools]
+packages = ["plume_model_code"]
